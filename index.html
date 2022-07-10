@@ -5,37 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Студия</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
 
   <body>
-
     <!-- Хэдер -->
-    <header>
+    <header class="page-header">
       <nav class="nav-section">
-        <a class="logo" href="./index.html">Web<span class="logo-word">Studio</span></a>
-        <ul class="nav-list">
-          <li>
-            <a class="nav-list-item link" href="./index.html">Студия</a>
+        <a class="logo link" href="./index.html">Web<span class="logo-word">Studio</span></a>
+        <ul class="nav-list list">
+          <li class="nav-list-item">
+            <a class="nav-link link" href="./index.html">Студия</a>
           </li>
-          <li>
-            <a class="nav-list-item link" href="./portfolio.html">Портфолио</a>
+          <li class="nav-list-item">
+            <a class="nav-link link" href="./portfolio.html">Портфолио</a>
           </li>
-          <li>
-            <a class="nav-list-item link" href="#">Контакты</a>
+          <li class="nav-list-item">
+            <a class="nav-link link" href="#">Контакты</a>
           </li>
         </ul>
       </nav>
-      <ul class="contacts-list">
-        <li>
-          <a class="contacts-list-item link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+      <ul class="contacts-list list">
+        <li class="contacts-list-item">
+          <a class="contacts-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
         </li>
-        <li>
-          <a class="contacts-list-item link" href="tel:+380961111111">+38 096 111 11 11</a>
+        <li class="contacts-list-item">
+          <a class="contacts-link link" href="tel:+380961111111">+38 096 111 11 11</a>
         </li>
       </ul>
     </header>
@@ -45,42 +46,50 @@
       <!-- Cекция герой -->
       <section class="hero">
         <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-        <button type="button">Заказать услугу</button>
+        <button class="modal-btn" type="button">Заказать услугу</button>
       </section>
       <!-- Секция преймуществ -->
       <section class="section">
         <h2 class="hide-title">Преймущества</h2>
-        <ul class="section-list">
-          <li class="section-list-iten link">
+        <ul class="section-list list">
+          <li class="section-list-item">
             <h3 class="list-title">Внимание к деталям</h3>
-            <p class="list-desription">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+            <p class="list-desription">
+              Идейные соображения, а также начало повседневной работы по формированию позиции.
+            </p>
           </li>
-          <li class="section-list-iten link">
+          <li class="section-list-item">
             <h3 class="list-title">Пунктуальность</h3>
-            <p class="list-desription">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+            <p class="list-desription">
+              Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
+            </p>
           </li>
-          <li class="section-list-iten link">
+          <li class="section-list-item">
             <h3 class="list-title">Планирование</h3>
-            <p class="list-desription">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+            <p class="list-desription">
+              Равным образом консультация с широким активом в значительной степени обуславливает.
+            </p>
           </li>
-          <li class="section-list-iten link">
+          <li class="section-list-item">
             <h3 class="list-title">Современные технологии</h3>
-            <p class="list-desription">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+            <p class="list-desription">
+              Значимость этих проблем настолько очевидна, что реализация плановых заданий.
+            </p>
           </li>
         </ul>
       </section>
       <!-- Секция приера работ -->
       <section class="section">
         <h2 class="section-title">Чем мы занимаемся</h2>
-        <ul class="section-list">
-          <li class="section-list-iten link">
-            <img src="./images/work-exaples/typing.jpg" alt="Набор кода" width="370" />
+        <ul class="section-list list">
+          <li class="section-list-iten">
+            <img src="./images/work-examples/typing.jpg" alt="Набор кода" width="370" />
           </li>
-          <li class="section-list-iten link">
-            <img src="./images/work-exaples/notebook.jpg" alt="Ноутбук" width="370" />
+          <li class="section-list-iten">
+            <img src="./images/work-examples/notebook.jpg" alt="Ноутбук" width="370" />
           </li>
-          <li class="section-list-iten link">
-            <img src="./images/work-exaples/pad.jpg" alt="Планшет" width="370" />
+          <li class="section-list-iten">
+            <img src="./images/work-examples/pad.jpg" alt="Планшет" width="370" />
           </li>
         </ul>
       </section>
@@ -88,22 +97,22 @@
       <section class="section">
         <h2 class="section-title">Наша команда</h2>
         <ul class="section-list">
-          <li class="section-list-iten link">
+          <li class="section-list-iten list">
             <img src="./images/team/ihor.jpg" alt="Игорь Демьяненко" width="270" />
             <h3 class="list-title">Игорь Демьяненко</h3>
             <p class="list-desription">Product Designer</p>
           </li>
-          <li class="section-list-iten link">
+          <li class="section-list-iten list">
             <img src="./images/team/olga.jpg" alt="Ольга Репина" width="270" />
             <h3 class="list-title">Ольга Репина</h3>
             <p class="list-desription">Frontend Developer</p>
           </li>
-          <li class="section-list-iten link">
+          <li class="section-list-iten list">
             <img src="./images/team/nikolaj.jpg" alt="Николай Тарасов" width="270" />
             <h3 class="list-title">Николай Тарасов</h3>
             <p class="list-desription">Marketing</p>
           </li>
-          <li class="section-list-iten link">
+          <li class="section-list-iten list">
             <img src="./images/team/mihaiil.jpg" alt="Михаил Ермаков" width="270" />
             <h3 class="list-title">Михаил Ермаков</h3>
             <p class="list-desription">UI Designer</p>
@@ -114,22 +123,23 @@
 
     <!-- Футер -->
     <footer class="footer">
-      <a class="logo" href="./index.html">Web<span class="logo-word">Studio</span></a>
+      <a class="logo link" href="./index.html">Web<span class="logo-word">Studio</span></a>
       <address class="address">
-        <ul class="adress-list">
-          <li class="address-list-item link">
+        <ul class="adress-list list">
+          <li class="address-list-item">
             <a
+              class="address-link link"
               href="https://goo.gl/maps/UFjsu3jXrwAWiCtK9"
               target="_blank"
               rel="noopener noreferrer"
               >г. Киев, пр-т Леси Украинки, 26</a
             >
           </li>
-          <li class="address-list-item link">
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+          <li class="address-list-item">
+            <a class="footer-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
           </li>
           <li class="address-list-item link">
-            <a href="tel:+380961111111">+38 096 111 11 11</a>
+            <a class="footer-link link" href="tel:+380961111111">+38 096 111 11 11</a>
           </li>
         </ul>
       </address>
