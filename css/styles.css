@@ -213,8 +213,8 @@ body {
   color: var(--white-alfa-color);
 }
 
-.footer-link:hover,
-.footer-link:focus {
+.address-list-item .link:hover,
+.address-list-item .link:focus {
   color: var(--accent-color);
 }
 
